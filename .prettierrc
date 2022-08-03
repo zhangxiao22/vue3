@@ -1,0 +1,9 @@
+{
+  "printWidth": 80, // 超过多少换行， 默认 80
+  "tabWidth": 2, // 指定每个缩进级别的空格数。默认 2
+  "useTabs": true,
+  "semi": false,
+  "singleQuote": true,
+  "bracketSameLine": true, //HTML闭合标签不会另起一行
+  "eslintIntegration": false
+}
