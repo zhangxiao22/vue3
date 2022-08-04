@@ -28,6 +28,10 @@ module.exports = {
     //     multiline: 1
     //   }
     // ],
+    'vue/first-attribute-linebreak': [1, {
+      singleline: 'ignore',
+      multiline: 'beside'
+    }],
     'vue/html-closing-bracket-newline': [
       'error',
       {

@@ -1,66 +1,28 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-defineProps<{
-  msg: string
-}>()
+defineProps<{ msg: string }>()
 
-const count = ref(0)
-const sadfasd = () => {
-  console.log(123)
-}
+const count = ref(10)
 </script>
-
 <template>
-  <!-- <h1>{{ msg }}</h1> -->
-
   <div class="card">
-    <a />
-    <a
-      clsadfasfasfasfaadsfasfsfasfass="ccasdfasdfadsfc"
-      adsadsfasfasdfafasfasdfaccc="a"
-      baaaasdfadsfasdfasdfadsfaaa="b"
-      accaaaaaa="ac"
-      adaaaaaaaa="a"
-      aesssssssasadsds="a"
-      ar="aaaaa" />
-    <button
-      type="button"
-      adasf="asdfadsfasdf"
-      adsfasdfsdaf="dasfasdfsadfdsaf"
-      @click="count++"
-      @dasf="sadfasd">
+    <button type="button"
+            adasf="asdfadsfasdf"
+            adsfasdfsdaf="dasfasdfsadfdsaf"
+            @click="count++">
       count is
       {{ count }}
     </button>
-    <p>
-      Edit
-      <code>components/HelloWodsafasdfasdfasdfasdfadsfdsafdasfdarld.vue</code>
-      to test HMR
-    </p>
+    <a-button type="primary">Primary Button</a-button>
   </div>
-
-  <p>
-    Check out
-    <a
-      href="https://vuejs.org/guide/quadsfadsfasdfasdfsadfasfadsfadsick-start.html#local"
-      target="_blank">
-      create-vue
-    </a>
-    , the official Vue + Vite starter
-  </p>
-  <p>
-    Install
-    <a
-      href="https://github.com/johnsoncodehk/volar"
-      target="_blank">Volar</a>
-    in your IDE for a better DX
-  </p>
-  <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
 </template>
 
-<style scoped>
-.read-the-docs {
-  color: #888;
+<style scoped lang="less">
+.card {
+  background: red;
+  button {
+    background: blue;
+  }
 }
 </style>
